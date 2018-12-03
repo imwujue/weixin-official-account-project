@@ -1,0 +1,36 @@
+<!--用户注册界面-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>用户注册界面</title>
+    <link href = "/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="register_main">
+    <h2>用户注册中心</h2>
+    <form action = "{:url('login/register')}" method = "post">
+      <table id = "register_func">
+      <tr>
+        <td>用户名:</td>
+        <td><input type="text" name="user_name" size="20"></td>
+        </tr>
+      <tr>
+        <td>密码：</td>
+        <td><input type="password" name="user_pwd1"></td>
+        <td>重新输入密码:</td>
+        <td><input type="password" name="user_pwd2"></td>
+        </tr>
+      <tr>
+        <td colspan="2"><center>
+          <input type="submit" name="sub" value="注册">
+          <input type="reset" name ="res" value="重置">
+          </center>
+          </td>
+        </tr>
+        </table>
+      </form>
+      </div>
+    </body>
+  </html>
+      
+                                                   
