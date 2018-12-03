@@ -66,7 +66,7 @@ class wx extends Controller
        "button":[
        {
             "type":"click",
-            "name":"今日歌曲1",
+            "name":"今日天气",
             "key":"V1001_TODAY_MUSIC"
         },
         {
@@ -74,7 +74,7 @@ class wx extends Controller
              "sub_button":[
              {
                  "type":"view",
-                 "name":"搜索",
+                 "name":"天气概况",
                  "url":"http://188.131.200.162/wx/weather.html"
               },
               {
