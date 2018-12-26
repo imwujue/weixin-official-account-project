@@ -74,7 +74,7 @@ class wx extends Controller
              "sub_button":[
              {
                  "type":"view",
-                 "name":"天气概况",
+                 "name":"天气",
                  "url":"http://188.131.200.162/wx/weather.html"
               },
               {

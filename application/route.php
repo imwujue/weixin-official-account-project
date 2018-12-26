@@ -11,7 +11,7 @@
 use think\Route;
 Route::rule('news/:id','api/news/read');
 Route::rule('Weather/:code','api/Weather/read');
-Route::rule('City/:name','api/City/read');
+//Route::rule('City/:name','api/City/read');
 
 return [
     '__pattern__' => [
